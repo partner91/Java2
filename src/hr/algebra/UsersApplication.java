@@ -25,9 +25,10 @@ public class UsersApplication extends Application {
                 getClass().getResource("view/Users.fxml")
         );
         
-        Scene scene = new Scene(root, 300, 250);
+        Scene scene = new Scene(root, 710, 570);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Pokajnici");
+        primaryStage.setResizable(false);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
